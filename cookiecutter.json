@@ -1,0 +1,12 @@
+{
+  "project_name": "X2R Project Boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "pkg_name": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Skeleton project created by X2R CLI",
+  "full_name": "Ming Yang",
+  "email": "vivym@live.com",
+  "github_username": "vivym",
+  "version": "0.1.0",
+  "open_source_license": ["MIT", "BSD-3-Clause", "ISC", "Apache-2.0", "GPL-3.0-only", "Not open source"],
+  "_copy_without_render": [".github/workflows/*.yml"]
+}
